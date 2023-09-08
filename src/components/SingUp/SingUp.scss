@@ -1,0 +1,85 @@
+.SingUp{
+    // border: 1px solid red;
+    min-width: 30%;
+    width:auto;
+    min-height: 80vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    padding: 0px 32px;
+
+    input{
+        border: none;
+        border-bottom: 1px solid black;
+        margin-bottom: 16px;
+    }
+    button{
+        width: 50%;
+        height:32px;
+        box-shadow: 3px 3px 8px rgb(0,0,0,0.4);
+        background-color: #36a3e2;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        font-weight: 400;
+        font-size: large;
+
+    }
+    button:hover{
+        background-color:  rgb(12, 230, 12);
+        color: white;
+        cursor: pointer;
+    }   
+    button:active{
+        background-color: rgb(223, 48, 48);
+    }
+    .details{
+        display: flex;
+        flex-direction: row;
+        // padding: 5% 20%;
+        margin: 5% 20%;
+        justify-content: space-between;
+    }
+    hr{
+        width: 35%;
+        background-color: black;
+            // height: 0.2px !important;
+    }
+    .socialSigUp{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        // border: 2px solid blue;
+        margin: 0px 36px;
+        width: 50%;
+        align-self: center;
+    }
+    h1{
+        align-self: center;
+        text-decoration-line: underline;
+    }
+    input:focus{
+        outline: none;
+      }
+    .icons{
+        border: 1.5px solid rgb(49, 117, 189);
+        padding: 8px;
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+    }
+    .icons:hover{
+        cursor: pointer;
+      }
+    
+    @media only screen and (max-width:1000px) {
+        .socialSigUp {
+          margin: 0px 5px;
+          width: 80%;
+        }
+      }
+
+}

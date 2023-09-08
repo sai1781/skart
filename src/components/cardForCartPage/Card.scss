@@ -1,0 +1,71 @@
+
+
+.Card{
+    // border: 1.2px solid black;
+    border-radius: 5px;
+    margin: 0.1rem 16px 0px 0;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+    // text-align: start;
+    img{
+        height: 5rem;
+        width: 5rem;
+        border: 0.2px solid black;
+    }
+    .Adding{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        // border: 1px solid green;
+        height: 50%;
+        width: 8%;
+    }
+    .delete{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        cursor: pointer;
+        padding-right: 1rem;
+    }
+ 
+    button{
+       
+        font-weight: 900;
+        height: 2.5rem;
+        min-width: 2.5rem;
+        max-width: auto;
+        font-size:x-large;
+        border: none;
+        align-self: center;
+        background-color: green;
+        border-radius: 1px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+    button:hover{
+        cursor: pointer;
+    }
+    button:active{
+        background-color: rgb(243, 57, 57);
+    }
+    .leftButton{
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+    .rightButton{
+        border-top-Right-radius: 4px;
+        border-bottom-Right-radius: 4px;
+    }
+}

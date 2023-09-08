@@ -1,0 +1,112 @@
+.SignIn {
+  // border:1px solid blue;
+  display: flex;
+  justify-content: center;
+  min-width: 30%;
+  width: auto;
+  min-height: 80vh;
+  height: auto;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  padding: 0px 32px;
+
+  h1 {
+    align-self: center;
+    text-decoration-line: underline;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 25px;
+    
+  }
+  input:focus{
+    outline: none;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+    // border: 2px solid green;
+
+  }
+  button {
+    width: 40%;
+    box-shadow: 3px 3px 8px rgb(0, 0, 0, 0.4);
+    background-color: #36a3e2;
+    height: 32px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: 200;
+    font-size: 1rem;
+  }
+  button:hover {
+    background-color: rgb(12, 230, 12);
+    color: white;
+    cursor: pointer;
+  }
+  button:active {
+    background-color: rgb(223, 48, 48);
+  }
+  .details {
+    display: flex;
+    flex-direction: row;
+    // padding: 5% 20%;
+    margin: 5% 20%;
+    justify-content: space-between;
+    // border: 2px solid green;
+  }
+  hr {
+    height: 0.5px;
+    width: 35%;
+    background-color: black;
+  }
+  .socialSigUp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    // border: 2px solid blue;
+    margin: 0px 36px;
+    width: 50%;
+    align-self: center;
+  }
+  .icons {
+    border: 1.5px solid rgb(49, 117, 189);
+    padding: 8px;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+  }
+  .icons:hover{
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    &{
+        padding: 0px 24px;
+
+    }
+    .socialSigUp {
+      margin: 0px 5px;
+      width: 80%;
+    }
+    .buttons {
+      justify-content: space-between;
+    }
+    button {
+      width: auto;
+    }
+    & {
+      margin-bottom: 32px;
+    }
+  }
+}

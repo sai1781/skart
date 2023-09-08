@@ -1,0 +1,90 @@
+
+
+.CarouselContainer{
+    height: 70vh;
+    width: 100%;
+    margin-bottom: 2rem;
+    background-color:burlywood ;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+ 
+    h1{
+        padding: 0;
+        margin: 0;
+    }
+    .Carousel{
+        height: 60vh;
+        margin: 0;
+        padding: 0;
+        transition: all 0.4s ease-in-out;
+        background-color: burlywood;
+
+        &:hover{
+            cursor: pointer;
+            transform: scale(1.06,1.07);
+        }
+        .CarouselMap{
+            height: 60vh;
+            width: 100%;
+            // margin: 1rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            border: 1px solid blue;
+            // margin-bottom: 1rem;
+            &:hover{
+                cursor: pointer;
+            }
+            .CarouselPhoto{
+                // border: 2px solid green;
+                height: 80%;
+                width: 40%;
+                img{
+                    // border: 2px solid red;
+                    width: 100% !important;
+                }
+            }
+            .CarouselDetails{
+                border: 1px solid blue;
+                height: 80%;
+                width: 40%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+
+                .CarouselDetailsTop{
+                    height: 20%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+                .CarouselDetailsMiddle{
+                    border: 2px solid red;
+                    height: 50%;
+                    border-radius: 20%;
+                }
+                .CarouselDetailsBottom{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 20%;
+                    h3{
+                        border-bottom: 1px solid green;
+                        color: green;
+                        padding: .1rem;
+                    }
+                }
+
+            }
+            img{
+                height: 100% !important;
+                width: 50% !important;
+
+            }
+        }
+    }
+}

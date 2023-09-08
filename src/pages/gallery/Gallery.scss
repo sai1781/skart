@@ -1,0 +1,134 @@
+.GalleryProductPage {
+  background-color: white;
+  // border: 1px solid red;
+  min-height: 100vh;
+  max-height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  hr {
+    // background-color: rgba(0,0,0,0.5);
+    // color: rgba(0,0,0,0.5);
+    // border: 0.5px solid rgba(0,0,0,0.5);
+    margin: 0;
+    padding: 0;
+  }
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    padding: 0;
+    margin: 0;
+    display: inline;
+  }
+  div {
+    padding: 0;
+    margin: 0;
+  }
+  .GalleryProductPageSub {
+    background-color: white;
+    // border: 1px solid red;
+    min-height: 100vh;
+    max-height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: start;
+
+    .Left {
+      border: 10px solid green;
+      width: 20%;
+      height: auto;
+     
+
+     
+      .GalleryProductpageSubHeading2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 2rem;
+      }
+
+      .GalleryProductPageSubHeading1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 5vh;
+        max-height: auto;
+        border: 1px solid red;
+        // margin-bottom: 2rem;
+        font-weight: 600;
+        
+        .tree{
+          border: 2px solid green;
+          // min-height: 1vh !important;
+          // max-height: auto;
+          min-height: 1vh;
+        }
+      }
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    .Right {
+      // border: 1px solid blue;
+      width: 70%;
+      min-height: 100%;
+      max-height: auto;
+      text-align: center;
+      display: flex;
+      background-color: white;
+      flex-direction: column;
+      .RightTop {
+        height: 3rem;
+        width: 100%;
+        // border: 1px solid red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+      }
+      .RightMiddle {
+        height: 4rem;
+        width: 100%;
+        // border: 1px solid green;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        .RightMiddle2 {
+          height: 80%;
+          width: 100%;
+          background-color: rgb(251, 246, 240);
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: center;
+          border-radius: 5px;
+          .RightMiddle3{
+            width: 15%;
+            // border: 1px solid red;
+            display: flex;
+            justify-content: space-around;
+            h3:hover{
+              cursor: pointer;
+            }
+          }
+        }
+      }
+      .RightBottom {
+        height: auto;
+        width: 100%;
+        // border: 10px solid yellow;
+      }
+    }
+  }
+}

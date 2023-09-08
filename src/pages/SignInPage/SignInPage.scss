@@ -1,0 +1,23 @@
+
+.SingIn-SinUP{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px solid green;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 80vh;
+    height: auto;
+    padding: 16px;
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+
+
+    @media only screen and (max-width: 650px) {
+        &{
+          margin: 0px 5px;
+          width: 100%;
+        }
+      }
+}

@@ -1,0 +1,44 @@
+.Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    // border: 2px solid green;
+    margin: 10px 10px;
+    height: 60px;
+
+
+    .HeaderLogo{
+        width: 100%;
+        padding: 20px;
+    }
+    a{
+        text-decoration: none;
+        padding-right: 1rem;
+        color: black;
+    }
+
+    .HeaderTags{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        justify-content: flex-end;
+        align-items: center;
+        width: 60%;
+        // border: 2px solid green;
+        padding-right: 10px;
+    }
+
+    .ShopIcon{
+        height: 5rem;
+        width: 2rem;
+    }
+    .brandName{
+        height: 3rem;
+        width: 3rem;
+        padding: 5px;
+        border-radius: 50%;
+        border: 2px solid white;
+    }
+    
+}
